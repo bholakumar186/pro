@@ -8,41 +8,39 @@ Maybe you can mention me or this repo in the acknowledgements too
 <div align="center">
   <h1>Online Exam Portal</h1>
   <p>
-    A Online Exam portal website with backend in Nodejs and frontend in React js 
+    A comprehensive Online Exam portal built with Node.js (Backend) and React.js (Frontend).
   </p>
   
-<!-- Badges -->
 <p>
-  <a href="https://github.com/chintan-golakiya/online-exam-portal/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/chintan-golakiya/online-exam-portal" alt="contributors" />
+  <a href="https://github.com/bholakumar186/pro/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/bholakumar186/pro" alt="contributors" />
   </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/chintan-golakiya/online-exam-portal" alt="last update" />
+  <a href="https://github.com/bholakumar186/pro/commits/main">
+    <img src="https://img.shields.io/github/last-commit/bholakumar186/pro" alt="last update" />
   </a>
-  <a href="https://github.com/chintan-golakiya/online-exam-portal/network/members">
-    <img src="https://img.shields.io/github/forks/chintan-golakiya/online-exam-portal" alt="forks" />
+  <a href="https://github.com/bholakumar186/pro/network/members">
+    <img src="https://img.shields.io/github/forks/bholakumar186/pro" alt="forks" />
   </a>
-  <a href="https://github.com/chintan-golakiya/online-exam-portal/stargazers">
-    <img src="https://img.shields.io/github/stars/chintan-golakiya/online-exam-portal" alt="stars" />
+  <a href="https://github.com/bholakumar186/pro/stargazers">
+    <img src="https://img.shields.io/github/stars/bholakumar186/pro" alt="stars" />
   </a>
-  <a href="https://github.com/chintan-golakiya/online-exam-portal/issues/">
-    <img src="https://img.shields.io/github/issues/chintan-golakiya/online-exam-portal" alt="open issues" />
+  <a href="https://github.com/bholakumar186/pro/issues/">
+    <img src="https://img.shields.io/github/issues/bholakumar186/pro" alt="open issues" />
   </a>
 </p>
    
 <h4>
-    <a href="https://chintan-golakiya.github.io/online-exam-portal-frontend/">View Demo</a>
+    <a href="https://github.com/bholakumar186/pro">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/chintan-golakiya/online-exam-portal/issues/">Report Bug</a>
+    <a href="https://github.com/bholakumar186/pro/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/chintan-golakiya/online-exam-portal/issues/">Request Feature</a>
+    <a href="https://github.com/bholakumar186/pro/issues/">Request Feature</a>
   </h4>
 </div>
 
 <br />
 
-<!-- Table of Contents -->
-# :notebook_with_decorative_cover: Table of Contents
+## :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
   * [Tech Stack](#space_invader-tech-stack)
@@ -56,95 +54,67 @@ Maybe you can mention me or this repo in the acknowledgements too
 - [Contributing](#wave-contributing)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
 
-  
-
-<!-- About the Project -->
 ## :star2: About the Project
-  Web Application for online MCQ test usecase
+A robust Web Application designed for handling online MCQ (Multiple Choice Question) tests, featuring distinct portals for students, teachers, and administrators.
 
 
-<!-- TechStack -->
+
 ### :space_invader: Tech Stack
 
 <details>
-  <summary>Frontend</summary>
+  <summary><b>Frontend</b></summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://react-redux.js.org/">React-Redux</a></li>
-    <li><a href="https://www.mui.com">Material UI library</a></li>
-    <li><a href="https://html.com/html5/">HTML 5</a></li>
-    <li><a href="https://www.css3.com/">CSS 3</a></li>
+    <li>React.js</li>
+    <li>React-Redux</li>
+    <li>Material UI</li>
   </ul>
 </details>
 
 <details>
-  <summary>Backend</summary>
+  <summary><b>Backend</b></summary>
   <ul>
-    <li><a href="https://www.nodejs.org">Node.js</a></li>
-    <li><a href="https://www.expressjs.com/">Express.js</a></li>
-    <li><a href="https://www.passportjs.org/">Passport.js</a></li>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>Passport.js (Authentication)</li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary><b>Database</b></summary>
   <ul>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
+    <li>MongoDB</li>
   </ul>
 </details>
 
-
-<!-- Features -->
 ### :dart: Features
 
-- Student User
-  - View Tests Details
-  - Register for test
-  - Give Test
-  - Check Result and correct answer and explanation for questions
-- Teacher User
-  - Create, Update Questions and Question Banks
-  - Create, View Test
-- Admin User
-  - Create and Manage Teacher users
-  - Create and Manage subjects
+* **Student User:** View test details, register for exams, take live tests, and review results with detailed explanations.
+* **Teacher User:** Create/Update question banks, manage specific questions, and schedule tests.
+* **Admin User:** Full control over teacher accounts and subject categorization.
 
-
-<!-- Env Variables -->
 ### :key: Environment Variables
 
-To run this project, you will need to add the following variables to your backend/config.json file
+To run this project, add the following to your `backend/config.json` file:
 
-`mongodb.connectionString`
+`mongodb.connectionString`  
 `jwt.secret`
 
-<!-- Getting Started -->
-## 	:toolbox: Getting Started
+---
 
-<!-- Prerequisites -->
+## :toolbox: Getting Started
+
 ### :bangbang: Prerequisites
 
-This project uses MongoDB as database. please install mongodb server in local environment.
+* **MongoDB:** Ensure MongoDB is installed and running on your local machine.
+* **Node.js:** LTS version recommended.
 
-<!-- Run Locally -->
 ### :running: Run Locally
 
-Clone the project
-
-```bash
-  git clone https://github.com/chintan-golakiya/online-exam-portal.git
-```
-
-Go to the project directory
-
-```bash
-  cd project-directory
-```
-
-Install dependencies
-
+1. **Clone the project**
+   ```bash
+   git clone [https://github.com/bholakumar186/pro.git](https://github.com/bholakumar186/pro.git)
+   cd pro
 ```bash
   cd backend
   npm install
@@ -206,40 +176,3 @@ Use following paths
   <li> add more features </li>
   </ul>
  
-<!-- Contributing -->
-## :wave: Contributing
-
-<a href="https://github.com/chintan-golakiya/online-exam-portal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=chintan-golakiya/online-exam-portal" />
-</a>
-
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-
-
-
-<!-- License -->
-## :warning: License
-
-Distributed under the no License. 
-
-
-<!-- Contact -->
-## :handshake: Contact
-
-Chintan Golakiya - [@_chint4n_](https://twitter.com/_chint4n_) - golakiyachintan24@gmail.com
-
-Project Link: [https://github.com/chintan-golakiya/online-exam-portal](https://github.com/chintan-golakiya/online-exam-portal)
-
-
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-Following libraries have been used in this projects.
-
- - [Material UI](https://www.mui.com)
- - [Passport JS](https://www.passportjs.org/)
- - [Awesome Readme Template](https://github.com/Louis3797/awesome-readme-template)
-
